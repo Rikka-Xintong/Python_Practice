@@ -9,10 +9,10 @@ while n < 0.9*a:
     else:
         print(x*k + "*"*i + x*k)
     n = n + 1
-else:
+while n >= 0.9*a and n <= a:
     i = 2*n-1
     k = int(((2*a-1)-(2*n-1))/2)
-    print(x*n + "U" + x*n)
+    print(x*(n-1) + "U" + x*(n-1))
     n = n + 1
 
 
